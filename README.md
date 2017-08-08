@@ -12,6 +12,7 @@ many dialects, like COLUMN or CHAR, that don't exist in N1QL.
 ## Requirements
 
 N1QL syntax file(s) for Vim 7.4 and later
+
 `$HOME/.vim` must exist for local installation
 
 
