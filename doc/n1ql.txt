@@ -2,8 +2,8 @@
 
 Contents:
 
-1. General information^^|n1ql.vim|
-2. About^^^|n1ql-syntax-about|
+1. General information		|n1ql.vim|
+2. About					|n1ql-syntax-about|
 
 
 N1QL						*n1ql.vim* *ft-n1ql-syntax*
