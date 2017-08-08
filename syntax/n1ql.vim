@@ -159,6 +159,7 @@ syn keyword n1qlKeyword WORK
 syn keyword n1qlOperator AND
 syn keyword n1qlOperator AS
 syn keyword n1qlOperator BY
+syn keyword n1qlOperator COUNT
 syn keyword n1qlOperator DISTINCT
 syn keyword n1qlOperator EXCEPT
 syn keyword n1qlOperator ILIKE
