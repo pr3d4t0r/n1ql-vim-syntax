@@ -3,7 +3,6 @@
 " Maintainer:  Eugene Ciurana <n1ql AT cime.net>
 " Version:     1.0
 " Source:      https://github.com/pr3d4t0r/n1sql-vim-syntax
-" Updates:     https://github.com/vim/vim/blob/master/contributing.md
 "
 " Questions, comments:  <n1ql AT cime.net>
 "                       https://ciurana.eu/pgp, https://keybase.io/pr3d4t0r

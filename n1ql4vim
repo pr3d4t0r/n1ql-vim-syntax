@@ -6,7 +6,8 @@
 
 
 N1QL_SYNTAX_PROJECT="https://github.com/pr3d4t0r/n1ql-vim-syntax.git"
-TMP_DIR="/tmp/$USER/n1ql4vim"
+# MacOS and Linux:
+TMP_DIR=$(mktemp -d 2> /dev/null || mktemp -d -t 'n1ql')
 USER_VIM="$HOME/.vim"
 
 
@@ -63,9 +64,15 @@ function installSyntaxFiles {
 
     _cleanCopy n1ql.vim "$originSyntax" "$vimSyntax"
     _cleanCopy n1ql.vim "$originFileDetection" "$vimFileDetection"
-    _cleanCopy n1ql.txt "$originDocs" "vimDocs"
+    _cleanCopy n1ql.txt "$originDocs" "$vimDocs"
 } # installSyntaxFiles
 
+
+function notify {
+    printf "N1QL Vim syntax files installed in $USER_VIM\n\n"
+
+    [[ -n $(which tree) ]] && tree -L 2 -I "autoload*|snippets*|include*|lib*|nerdtree*|*plugin*" -P "n1ql.*" "$USER_VIM"
+} # notify
 
 function cleanUp {
     rm -Rf "$TMP_DIR"
@@ -77,5 +84,7 @@ function cleanUp {
 assertVimDirExists
 setup
 cloneProject
-# cleanUp
+installSyntaxFiles
+notify
+cleanUp
 

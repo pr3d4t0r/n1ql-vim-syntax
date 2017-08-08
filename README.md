@@ -47,5 +47,19 @@ This syntax file is pending approval from the Vim team for inclusion in Vim
    `git clone https://github.com/pr3d4t0r/n1ql-vim-syntax.git n1ql-vim`
 1. Copy the syntax file to the local environment:<br>
    `cp n1ql-vim/syntax/n1ql.vim ~/.vim/syntax`
+1. Then the file detection file:
+   `cp n1ql-vim/ftdetect/n1ql.vim ~/.vim/ftdetect`
+1. And the documentation:
+   `cp n1ql-vim/doc/n1ql.vim ~/.vim/doc`
+1. Open `vim sample.n1ql` to validate
 
+
+### About
+
+Support:  Eugene Ciurana, n1ql@cime.net, https://ciurana.eu/pgp or
+https://keybase.io/pr3d4t0r
+
+Updates will be available through this repository and submitted for review to
+the Vim team in accordance to 
+https://github.com/vim/vim/blob/master/contributing.md
 
