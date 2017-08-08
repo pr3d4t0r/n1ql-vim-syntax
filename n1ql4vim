@@ -1,0 +1,52 @@
+#!/bin/bash
+#
+# (c) Copyright 2017 by Eugene Ciurana / pr3d4t0r
+#
+# See:  https://github.com/pr3d4t0r/n1ql-vim-syntax
+
+
+N1QL_SYNTAX_PROJECT="https://github.com/pr3d4t0r/n1ql-vim-syntax.git"
+TMP_DIR="/tmp/$USER/n1ql4vim"
+
+
+function die {
+    if [[ -z "$2" ]]
+    then
+        exitCode=99
+    else
+        exitCode="$2"
+    fi
+
+    echo "$1"
+    exit "$exitCode"
+} # die
+
+
+function assertVimDirExists {
+    [[ ! -d "$HOME/.vim" ]] && die "$HOME/.vim directory missing; create it to continue" 1
+} # assertVimDirExists
+
+
+function setup {
+    rm -Rf "$TMP_DIR"
+    mkdir -p "$TMP_DIR"
+} # setup
+
+
+function cloneProject {
+    git clone "$N1QL_SYNTAX_PROJECT" "$TMP_DIR"
+} # cloneProject
+
+
+function cleanUp {
+    rm -Rf "$TMP_DIR"
+} # cleanUp
+
+
+# *** main ***
+
+assertVimDirExists
+setup
+cloneProject
+cleanUp
+
