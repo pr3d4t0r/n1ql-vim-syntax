@@ -48,5 +48,5 @@ function cleanUp {
 assertVimDirExists
 setup
 cloneProject
-cleanUp
+# cleanUp
 

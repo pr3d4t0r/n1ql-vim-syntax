@@ -32,3 +32,20 @@ This syntax file is pending approval from the Vim team for inclusion in Vim
 ### Local installation
 
 
+#### Automatic installation
+
+1. Exit Vim, MacVim, gVim - all Vim instances associated with your user
+1. Download the `n1ql4vim` bash script
+1. Run `sh ./n1ql4vim` script
+1. Open `vim sample.n1ql` to validate
+
+
+### Manual installation
+
+1. Exit Vim, MacVim, gVim - all Vim instances associated with your user
+1. Clone the N1QL syntax repository:
+   `git clone https://github.com/pr3d4t0r/n1ql-vim-syntax.git n1ql-vim`
+1. Copy the syntax file to the local environment:
+   `cp n1ql-vim/syntax/n1ql.vim ~/.vim/syntax`
+
+
