@@ -31,6 +31,14 @@ _This syntax file is pending approval from the Vim team for inclusion in Vim
 
 ### Local installation
 
+1. Exit Vim, MacVim, gVim - all Vim instances associated with your user
+1. Execute from the console:<br>
+   `curl -s https://raw.githubusercontent.com/pr3d4t0r/n1ql-vim-syntax/master/n1ql4vim | sh`
+1. Open `vim sample.n1ql` to validate
+
+
+#### Express installation
+
 
 #### Automatic installation
 
