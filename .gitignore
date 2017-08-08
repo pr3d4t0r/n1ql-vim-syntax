@@ -1,0 +1,6 @@
+# (c) Copyright by Eugene Ciurana / pr3d4t0r 2017.  All rights reserved.
+#
+# Under BSD-2 license, https://github.com/pr3d4t0r/n1ql-vim-syntax
+
+**/*.swp
+
