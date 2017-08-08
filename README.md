@@ -37,7 +37,7 @@ _This syntax file is pending approval from the Vim team for inclusion in Vim
 1. Open `vim sample.n1ql` to validate
 
 
-#### Automatic installation
+### Automatic installation
 
 1. Exit Vim, MacVim, gVim - all Vim instances associated with your user
 1. Download the `n1ql4vim` bash script
@@ -59,7 +59,7 @@ _This syntax file is pending approval from the Vim team for inclusion in Vim
 1. Open `vim sample.n1ql` to validate
 
 
-### About
+## About
 
 Support:  Eugene Ciurana, &lt;n1ql AT cime.net&gt;, https://ciurana.eu/pgp or
 https://keybase.io/pr3d4t0r
@@ -69,7 +69,7 @@ the Vim team in accordance to
 https://github.com/vim/vim/blob/master/contributing.md
 
 
-#### License
+### License
 
 Vim is Charityware.  n1ql.vim syntax is Charityware.
 
