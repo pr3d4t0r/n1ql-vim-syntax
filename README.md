@@ -25,8 +25,8 @@ using the `n1ql4vim` command, included with this distribution.
 
 ### Global
 
-This syntax file is pending approval from the Vim team for inclusion in Vim
-8.x and subsequent versions.
+_This syntax file is pending approval from the Vim team for inclusion in Vim
+8.x and subsequent versions._
 
 
 ### Local installation
