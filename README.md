@@ -43,9 +43,9 @@ This syntax file is pending approval from the Vim team for inclusion in Vim
 ### Manual installation
 
 1. Exit Vim, MacVim, gVim - all Vim instances associated with your user
-1. Clone the N1QL syntax repository:
+1. Clone the N1QL syntax repository:<br>
    `git clone https://github.com/pr3d4t0r/n1ql-vim-syntax.git n1ql-vim`
-1. Copy the syntax file to the local environment:
+1. Copy the syntax file to the local environment:<br>
    `cp n1ql-vim/syntax/n1ql.vim ~/.vim/syntax`
 
 
