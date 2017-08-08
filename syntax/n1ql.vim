@@ -16,8 +16,14 @@ endif
 
 
 syn case ignore
+
+syn keyword n1qlSpecial DATASTORES
+syn keyword n1qlSpecial DUAL
 syn keyword n1qlSpecial FALSE
+syn keyword n1qlSpecial INDEXES
+syn keyword n1qlSpecial KEYSPACES
 syn keyword n1qlSpecial MISSING
+syn keyword n1qlSpecial NAMESPACES
 syn keyword n1qlSpecial NULL
 syn keyword n1qlSpecial TRUE
 
