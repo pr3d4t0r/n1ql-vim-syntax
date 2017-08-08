@@ -56,7 +56,7 @@ This syntax file is pending approval from the Vim team for inclusion in Vim
 
 ### About
 
-Support:  Eugene Ciurana, <n1ql AT cime.net>, https://ciurana.eu/pgp or
+Support:  Eugene Ciurana, &lt;n1ql AT cime.net&gt;, https://ciurana.eu/pgp or
 https://keybase.io/pr3d4t0r
 
 Updates will be available through this repository and submitted for review to
