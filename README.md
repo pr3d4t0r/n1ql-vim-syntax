@@ -63,3 +63,11 @@ Updates will be available through this repository and submitted for review to
 the Vim team in accordance to 
 https://github.com/vim/vim/blob/master/contributing.md
 
+
+#### License
+
+Vim is Charityware.  n1ql.vim syntax is Charityware.
+
+&copy; Copyright 2017 by Eugene Ciurana / pr3d4t0r.  Licensed under the
+standard VIM LICENSE - Vim command `:help uganda.txt` for details.
+

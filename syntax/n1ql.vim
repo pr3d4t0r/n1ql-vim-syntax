@@ -4,6 +4,11 @@
 " Version:     1.0
 " Source:      https://github.com/pr3d4t0r/n1sql-vim-syntax
 "
+" License:     Vim is Charityware.  n1ql.vim syntax is Charityware.
+"              (c) Copyright 2017 by Eugene Ciurana / pr3d4t0r.  Licensed
+"              under the standard VIM LICENSE - Vim command :help uganda.txt
+"              for details.
+"
 " Questions, comments:  <n1ql AT cime.net>
 "                       https://ciurana.eu/pgp, https://keybase.io/pr3d4t0r
 "

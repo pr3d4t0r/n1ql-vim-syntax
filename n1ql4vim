@@ -1,8 +1,11 @@
 #!/bin/bash
 #
-# (c) Copyright 2017 by Eugene Ciurana / pr3d4t0r
+# Vim is Charityware.  n1ql.vim syntax is Charityware.
+# 
+# (c) Copyright 2017 by Eugene Ciurana / pr3d4t0r.  Licensed under the
+# standard VIM LICENSE - Vim command :help uganda.txt for details.
 #
-# See:  https://github.com/pr3d4t0r/n1ql-vim-syntax
+# Project:  https://github.com/pr3d4t0r/n1ql-vim-syntax
 
 
 N1QL_SYNTAX_PROJECT="https://github.com/pr3d4t0r/n1ql-vim-syntax.git"
