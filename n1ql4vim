@@ -7,6 +7,7 @@
 
 N1QL_SYNTAX_PROJECT="https://github.com/pr3d4t0r/n1ql-vim-syntax.git"
 TMP_DIR="/tmp/$USER/n1ql4vim"
+USER_VIM="$HOME/.vim"
 
 
 function die {
@@ -36,6 +37,34 @@ function setup {
 function cloneProject {
     git clone "$N1QL_SYNTAX_PROJECT" "$TMP_DIR"
 } # cloneProject
+
+
+function _cleanCopy {
+    file="$1"
+
+    sourceFile="$2/$file"
+    targetFile="$3/$file"
+
+    # Always overrides - no check?  Suggestions?
+    rm -f "$targetFile"
+
+    cp -vf "$sourceFile" "$targetFile"
+} # _cleanCopy
+
+
+function installSyntaxFiles {
+    vimSyntax="$USER_VIM/syntax"
+    vimFileDetection="$USER_VIM/ftdetect"
+    vimDocs="$USER_VIM/doc"
+    
+    originSyntax="$TMP_DIR/syntax"
+    originFileDetection="$TMP_DIR/ftdetect"
+    originDocs="$TMP_DIR/doc"
+
+    _cleanCopy n1ql.vim "$originSyntax" "$vimSyntax"
+    _cleanCopy n1ql.vim "$originFileDetection" "$vimFileDetection"
+    _cleanCopy n1ql.txt "$originDocs" "vimDocs"
+} # installSyntaxFiles
 
 
 function cleanUp {
