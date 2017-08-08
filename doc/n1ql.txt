@@ -1,0 +1,26 @@
+*n1ql.vim*	N1QL Syntax File for Vim
+
+Contents:
+
+1. General information^^|n1ql.vim|
+2. About^^^|n1ql-syntax-about|
+
+
+N1QL						*n1ql.vim* *ft-n1ql-syntax*
+
+N1QL is a SQL-like declarative language for manipulating JSON documents in
+Couchbase Server databases.
+
+Vim syntax highlights N1QL statements, keywords, operators, types, comments,
+and special values.  Vim ignores syntactical elements specific to SQL or its
+many dialects, like COLUMN or CHAR, that don't exist in N1QL.
+
+
+*n1ql-syntax-about*
+
+Support:  Eugene Ciurana, n1ql AT cime.net, https://ciurana.eu or
+https://keybase.io/pr3d4t0r
+
+Main file:  https://github.com/pr3d4t0r/n1ql-vim-syntax
+N1QL language:  https://n1ql.couchbase.com
+
